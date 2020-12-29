@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+/*================ header styling =======================*/
+/* -ol- & -li- */
+
+header {
+  padding-left: 100px;
+  padding-bottom: 80px;
+  background: #eee;
+}
+header ol {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+header ol li {
+  display: inline-block;
+}
+
+/*---hover---*/
+header ol li a:hover {
+  text-decoration: underline;
+}
+
+header ol li a {
+  text-decoration: none;
+  color: #659d89;
+  display: inline-block;
+  padding: 23px;
+}
+
+header ol li a:first-of-type {
+  padding-left: 0;
+}
+
+/* - h1 - */
+header h1 {
+  font-size: 3.5rem;
+  color: #659d89;
+}
+
+header p:first-of-type {
+  font-size: 3.5rem;
+  width: 650px;
+}
+
+header p:nth-of-type(2) {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+/* --- arrow down --*/
+
+header img:last-of-type {
+  width: 15px;
+}
+/* --- social meadia-logos--*/
+
+header img:nth-of-type(-n + 3) {
+  display: block;
+  padding-left: 85%;
+  margin-top: 15px;
+}
+
+hr {
+  margin: 0;
+  color: #666;
+}
+
+/*============= 1st- section styling =======================*/
+
+section:first-of-type {
+  padding-left: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #eee;
+}
+
+section:first-of-type div {
+  width: 70%;
+  margin: auto;
+}
+section:first-of-type div img {
+  width: 250px;
+  height: 162px;
+  margin: 2%;
+  border: #eee 0.1px;
+}
+
+/*~~~ box-shadow hover~~~*/
+
+section:first-of-type div img:hover {
+  box-shadow: 5px 5px 15px 1px #888888;
+}
+/*===============================================================*/
+/*============== 2nd- section styling ==========*/
+
+section:nth-of-type(2) {
+  padding-left: 100px;
+  padding-top: 40px;
+  background: #eee;
+  padding-bottom: 80px;
+}
+
+section:nth-of-type(2) a:nth-of-type(2n-1) {
+  padding-left: 17%;
+}
+
+section:nth-of-type(2) a:nth-of-type(2n-1) img {
+  width: 640px;
+  height: 340px;
+}
+
+section:nth-of-type(2) a:nth-of-type(2n) {
+  padding-left: 40%;
+}
+
+section:nth-of-type(2) a:nth-of-type(2n) img {
+  width: 640px;
+  height: 340px;
+}
+
+/*~~~ img hover ~~~*/
+
+section:nth-of-type(2) a img:hover {
+  box-shadow: 5px 5px 15px 1px #888888;
+}
+
+/*------ pseudo selectors & styling for <p>'s under the images ------*/
+
+/*------*/
+section:nth-of-type(2) p:nth-of-type(3n-2) {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+section:nth-of-type(2) p:nth-of-type(3n-1) {
+  font-weight: 600;
+}
+
+section:nth-of-type(2) p:nth-of-type(3n) {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 100px;
+}
+
+/*~~~~~~~~~*/
+section:nth-of-type(2) p:first-of-type {
+  padding-left: 30%;
+}
+section:nth-of-type(2) p:nth-of-type(2) {
+  padding-left: 23%;
+}
+section:nth-of-type(2) p:nth-of-type(3) {
+  padding-left: 36%;
+}
+/*===*/
+
+section:nth-of-type(2) p:nth-of-type(4) {
+  padding-left: 57%;
+}
+section:nth-of-type(2) p:nth-of-type(5) {
+  padding-left: 57%;
+}
+
+section:nth-of-type(2) p:nth-of-type(6) {
+  padding-left: 61%;
+}
+
+/*---*/
+section:nth-of-type(2) p:nth-of-type(7) {
+  padding-left: 33%;
+}
+
+section:nth-of-type(2) p:nth-of-type(8) {
+  padding-left: 30%;
+}
+section:nth-of-type(2) p:nth-of-type(9) {
+  padding-left: 36%;
+}
+
+/*----*/
+
+section:nth-of-type(2) p:nth-of-type(10) {
+  padding-left: 56%;
+}
+section:nth-of-type(2) p:nth-of-type(11) {
+  padding-left: 54%;
+}
+section:nth-of-type(2) p:nth-of-type(12) {
+  padding-left: 58%;
+}
+
+/*============= footer styling ===============*/
+
+footer {
+  padding-bottom: 20px;
+  padding-top: 80px;
+  background: #eee;
+  text-align: center;
+}
+
+footer img {
+  display: inline-block;
+  width: 15px;
+  padding-right: 15px;
+}
+
+footer p:first-of-type {
+  display: inline-block;
+  color: #666;
+  font-size: 1rem;
+}
+
+footer p:last-of-type {
+  font-size: 0.8rem;
+  padding-top: 70px;
+}
